@@ -10,9 +10,7 @@ Vue.use(Vant);
 
 /* 导入公共样式 */
 import './assets/reset.min.css'
-import './assets/font/iconfont.css'
-import './assets/font_1494639_nrc9v20jj9/iconfont.css'
-import './assets/font_1498473_z88egw1pdi/iconfont.css'
+import './assets/font_1499361_iginn77uos/iconfont.css'
 
 
 

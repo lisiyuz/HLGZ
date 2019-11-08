@@ -2,7 +2,7 @@
   <div class="all">
     <header class="navber">
       <div class="nav-wrap-left">
-         <a href class="iconfont icon-maomi" @click.prevent="back"></a>
+         <a href class="iconfont icon-fanhui" @click.prevent="back"></a>
       </div>
       <span class="navberh1">提交订单</span>
     </header>
@@ -59,7 +59,7 @@
     </div>
 
     <!-- 页脚 -->
-    <div class="footer-container">
+    <!-- <div class="footer-container">
       <div class="footer-bar">
         <div class="pull-right">
           <a class="btn footer-city-btn">北京</a>
@@ -96,13 +96,14 @@
           <a>京ICP证070791号</a>
         </span>
       </div>
-    </div>
+    </div> -->
+<Ordercom></Ordercom>
   </div>
 </template>
 
 
 <script>
-
+import Ordercom from '../../components/Ordercom.vue'
 export default {
   data() {
     return {
@@ -131,6 +132,9 @@ export default {
       let total = this.count * this.price;
       return total;
     }
+  },
+   components: {
+    Ordercom
   }
 };
 </script>
@@ -293,95 +297,95 @@ export default {
 }
 
 /* 页脚 */
-.footer-container {
-  padding: 0 0.2rem 0.7rem 0.2rem;
-  background-color: #f0f0f0;
+// .footer-container {
+//   padding: 0 0.2rem 0.7rem 0.2rem;
+//   background-color: #f0f0f0;
 
-  .footer-bar {
-    margin-bottom: 0.4rem;
-    font-size: 0.28rem;
+//   .footer-bar {
+//     margin-bottom: 0.4rem;
+//     font-size: 0.28rem;
 
-    .pull-right {
-      float: right;
+//     .pull-right {
+//       float: right;
 
-      .footer-city-btn {
-        width: 0.8rem;
-        border: 0.03rem solid #06c1ae;
-        color: #06c1ae;
-        display: inline-block;
-        height: 0.6rem;
-        padding: 0 0.32rem;
-        text-align: center;
-        border-radius: 0.06rem;
-        line-height: 0.6rem;
-      }
-    }
+//       .footer-city-btn {
+//         width: 0.8rem;
+//         border: 0.03rem solid #06c1ae;
+//         color: #06c1ae;
+//         display: inline-block;
+//         height: 0.6rem;
+//         padding: 0 0.32rem;
+//         text-align: center;
+//         border-radius: 0.06rem;
+//         line-height: 0.6rem;
+//       }
+//     }
 
-    .footer-mine-btn {
-      width: 0.8rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      border: 0.03rem solid #06c1ae;
-      color: #06c1ae;
-      display: inline-block;
-      height: 0.6rem;
-      padding: 0 0.32rem;
-      text-align: center;
-      border-radius: 0.06rem;
-      line-height: 0.6rem;
-    }
-  }
-  .footer-nav {
-    margin-bottom: 0.18rem;
-    line-height: 1;
+//     .footer-mine-btn {
+//       width: 0.8rem;
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//       white-space: nowrap;
+//       border: 0.03rem solid #06c1ae;
+//       color: #06c1ae;
+//       display: inline-block;
+//       height: 0.6rem;
+//       padding: 0 0.32rem;
+//       text-align: center;
+//       border-radius: 0.06rem;
+//       line-height: 0.6rem;
+//     }
+//   }
+//   .footer-nav {
+//     margin-bottom: 0.18rem;
+//     line-height: 1;
 
-    ul {
-      font-size: 0.2rem;
-      display: -webkit-box;
-      font-weight: 500;
-      .last-child {
-        border-right: 0;
-      }
-      li {
-        -webkit-box-flex: 1;
-        border-right: 0.02rem solid #666;
-        text-align: center;
+//     ul {
+//       font-size: 0.2rem;
+//       display: -webkit-box;
+//       font-weight: 500;
+//       .last-child {
+//         border-right: 0;
+//       }
+//       li {
+//         -webkit-box-flex: 1;
+//         border-right: 0.02rem solid #666;
+//         text-align: center;
 
-        a {
-          color: #06c1ae;
-        }
-      }
-    }
-  }
-  .footer-links {
-    margin: 0.24rem 0.2rem;
-    font-size: 0.2rem;
-    text-align: center;
-    a {
-      color: #06c1ae;
-    }
-  }
-  .footer-copy {
-    position: relative;
-    font-size: 0.22rem;
-    text-align: center;
-    color: #999;
-    .hr {
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 50%;
-      border-top: 0.015rem solid #999;
-    }
-    span {
-      position: relative;
-      padding: 0 0.3rem;
-      font-size: 0.19rem;
-      text-align: center;
-      background-color: #f0efed;
-      color: #999;
-    }
-  }
-}
+//         a {
+//           color: #06c1ae;
+//         }
+//       }
+//     }
+//   }
+//   .footer-links {
+//     margin: 0.24rem 0.2rem;
+//     font-size: 0.2rem;
+//     text-align: center;
+//     a {
+//       color: #06c1ae;
+//     }
+//   }
+//   .footer-copy {
+//     position: relative;
+//     font-size: 0.22rem;
+//     text-align: center;
+//     color: #999;
+//     .hr {
+//       display: block;
+//       position: absolute;
+//       width: 100%;
+//       top: 50%;
+//       border-top: 0.015rem solid #999;
+//     }
+//     span {
+//       position: relative;
+//       padding: 0 0.3rem;
+//       font-size: 0.19rem;
+//       text-align: center;
+//       background-color: #f0efed;
+//       color: #999;
+//     }
+//   }
+// }
 </style>

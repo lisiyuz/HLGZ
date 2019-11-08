@@ -3,19 +3,19 @@
     <!-- 头部 -->
     <header class="navbar">
       <div class="nav-wrap-left">
-        <a href="" @click.prevent="Detailsback" class="iconfont  icon-maomi"></a>
+        <a href="" @click.prevent="Detailsback" class="iconfont  icon-fanhui"></a>
       </div>
       <div class="nav-header">团购详情</div>
       <div class="nav-wrap-right">
         <a href="###">
           <span>
-            <i class="iconfont icon-shoucang"></i>
+            <i class="iconfont icon-shouchang"></i>
             收藏
           </span>
         </a>
         <a href="###">
           <span>
-            <i class="iconfont icon-daohangliebiao"></i>
+            <i class="iconfont icon-daohang"></i>
             导航
           </span>
         </a>
@@ -59,15 +59,15 @@
             <div class="group-item dd-padding agreement">
               <ul class="agree">
                 <li class="color-ok">
-                  <i class="iconfont icon-icontkcg"></i>
+                  <i class="iconfont icon-qian"></i>
                   <span>支持随时退款</span>
                 </li>
                 <li class="color-ok">
-                  <i class="iconfont icon-icon--yes"></i>
+                  <i class="iconfont icon-duihao"></i>
                   <span>支持过期退换</span>
                 </li>
                 <li class="agreement-solds">
-                  <i class="iconfont icon-renming"></i>
+                  <i class="iconfont icon-yishou"></i>
                   <span>已售170602</span>
                 </li>
               </ul>
@@ -79,11 +79,11 @@
               <a href="###" class="star-row">
                 <div class="more more-weak comment-headline">
                   <span class="stars">
-                    <i class="iconfont icon-wuxing-copy"></i>
-                    <i class="iconfont icon-wuxing-copy"></i>
-                    <i class="iconfont icon-wuxing-copy"></i>
-                    <i class="iconfont icon-32"></i>
-                    <i class="iconfont icon-32"></i>
+                    <i class="iconfont icon-start"></i>
+                    <i class="iconfont icon-start"></i>
+                    <i class="iconfont icon-start"></i>
+                    <i class="iconfont icon-star-line"></i>
+                    <i class="iconfont icon-star-line"></i>
                     <em>3.3</em>
                   </span>
                   <span class="pull-right">1135人评价 ＞</span>
@@ -227,11 +227,11 @@
                 <a href="###">
                   评价
                   <span class="stars">
-                    <i class="iconfont icon-wuxing-copy"></i>
-                    <i class="iconfont icon-wuxing-copy"></i>
-                    <i class="iconfont icon-wuxing-copy"></i>
-                    <i class="iconfont icon-wuxing-copy"></i>
-                    <i class="iconfont icon-32"></i>
+                    <i class="iconfont icon-start"></i>
+                    <i class="iconfont icon-start"></i>
+                    <i class="iconfont icon-start"></i>
+                    <i class="iconfont icon-start"></i>
+                    <i class="iconfont icon-star-line"></i>
                     <em>3.3</em>
                   </span>
                 </a>
@@ -435,7 +435,7 @@ export default {
 
 .content-wrapper {
   width: 100%;
-  height: 58.7rem;
+  height: 56.2rem;
   background: #f2f2f2;
   // banner图片
   .banner-download {

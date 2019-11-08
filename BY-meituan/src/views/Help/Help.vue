@@ -52,19 +52,23 @@
         </dd>
       </dl>
     </div>
+<Homecomh></Homecomh>
   </div>
 </template>
 
 
 <script>
 import Enroll from "../../components/Enroll.vue";
+import Homecomh from "../../components/Homecomh.vue";
 export default {
   data() {
     return {};
   },
   
   components: {
-    Enroll
+    Enroll,
+    Homecomh
+  
   }
 };
 </script>
@@ -121,7 +125,7 @@ export default {
 .wrapper-list {
   display: block;
   width: 6.4rem;
-  height: 18rem;
+  height: 14.6rem;
 
   h4 {
     margin: 0.4rem 0.2rem 0.2rem;

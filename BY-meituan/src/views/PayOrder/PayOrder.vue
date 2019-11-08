@@ -2,7 +2,7 @@
   <div class="all">
     <div class="nav" style="display: block;">
       <div class="nav-left">
-        <a href class="iconfont icon-maomi" @click.prevent="back"></a>
+        <a href class="iconfont icon-fanhui" @click.prevent="back"></a>
       </div>
       <div class="nav-title">支付订单</div>
     </div>
@@ -45,7 +45,7 @@
               </div>
 
               <div class="checkbox">
-                <input type="radio" name="pay-method" />
+                <input type="radio" name="pay-method"/>
                 <i class="icon-success"></i>
               </div>
             </div>
@@ -117,9 +117,12 @@
       </div>
     </div>
     <!-- 底部 -->
+  <div class="footer">
     <div class="btn-wrapper">
       <button class="btn-block">确认支付</button>
     </div>
+  </div>    
+
   </div>
 </template>
 
@@ -456,8 +459,12 @@ export default {
     }
   }
 }
+.footer{
+  background: #fff;
+  height: 3.2rem;
 
-.btn-wrapper {
+
+  .btn-wrapper {
   margin: 0 0.2rem;
   width: 6.2rem;
   height: 0.85rem;
@@ -475,5 +482,7 @@ export default {
     border-radius: 0.06rem;
   }
 }
+}
+
 
 </style>

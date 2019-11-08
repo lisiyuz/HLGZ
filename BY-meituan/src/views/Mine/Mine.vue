@@ -50,7 +50,7 @@
         <dd class="dds">
           <a class="react" href="//i.meituan.com/brunch/order">
             <div class="more more-weak">
-              <i class="text-icon order-all order-icon dingdan iconfont icon-icon-"></i>全部订单
+              <i class="text-icon order-all order-icon dingdan iconfont icon-choujiangdan"></i>全部订单
               <span data-key="all" class="more-after">
                 <img src alt />
               </span>
@@ -61,28 +61,28 @@
           <ul class="orderindex">
             <li>
               <a href="//i.meituan.com/brunch/order?status=1" class="react">
-                <i class="text-icon sss iconfont icon-daifukuanbig"></i>
+                <i class="text-icon sss iconfont icon-daifukuan"></i>
                 <span class="yyy">待付款</span>
                 <span data-key="unpaid" class="amount-icon"></span>
               </a>
             </li>
             <li>
               <a href="//i.meituan.com/brunch/order?status=2" class="react">
-                <i class="text-icon sss iconfont icon-shiyong"></i>
+                <i class="text-icon sss iconfont icon-daishiyong"></i>
                 <span class="yyy">待使用</span>
                 <span data-key="unused" class="amount-icon"></span>
               </a>
             </li>
             <li>
               <a href="//i.meituan.com/brunch/order?status=3" class="react">
-                <i class="text-icon sss iconfont icon-daipingjia"></i>
+                <i class="text-icon sss iconfont icon-pingjia"></i>
                 <span class="yyy">待评价</span>
                 <span data-key="needfeedback" class="amount-icon" style="display: block;">5</span>
               </a>
             </li>
             <li>
               <a href="//i.meituan.com/brunch/order?status=4" class="react">
-                <i class="text-icon sss iconfont icon--"></i>
+                <i class="text-icon sss iconfont icon-tuikuan"></i>
                 <span class="yyy">退款/售后</span>
               </a>
             </li>
@@ -97,7 +97,7 @@
             href="//i.meituan.com/account/collection"
           >
             <div class="more more-weak gai">
-              <i class="text-icon order-fav order-icon iconfont icon-wodeshoucang yanse2"></i>
+              <i class="text-icon order-fav order-icon iconfont icon-wodeshoucang"></i>
               我的收藏
             </div>
           </a>
@@ -105,7 +105,7 @@
         <dd>
           <a class="react" gaevent="imt/account/magiccard" href="//i.meituan.com/account/magiccard">
             <div class="more more-weak gai">
-              <i class="text-icon order-card order-icon iconfont icon-wodediyongquan yanse1"></i>我的抵用券
+              <i class="text-icon order-card order-icon iconfont icon-daijinjuan"></i>我的抵用券
             </div>
           </a>
         </dd>
@@ -117,7 +117,7 @@
           >
             <div class="more more-weak gai">
               <i
-                class="text-icon order-lottery order-icon iconfont icon-choujiang yanse"
+                class="text-icon order-lottery order-icon iconfont icon-choujiangdan"
                 style="text-align:center"
               ></i>我的抽奖单
             </div>
@@ -140,7 +140,7 @@
 </template>
 
 <script>
-import "../../assets/font_1494639_nrc9v20jj9/iconfont.css";
+
 import "../../assets/reset.min.css";
 import Homecomh from "../../components/Homecomh.vue";
 export default {

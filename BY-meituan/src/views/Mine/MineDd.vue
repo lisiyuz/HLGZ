@@ -92,7 +92,7 @@
 </template>
 
 <script>
-import "../../assets/font_1494639_nrc9v20jj9/iconfont.css";
+
 
 export default {
   data() {

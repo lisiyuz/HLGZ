@@ -8,7 +8,7 @@
       <section class="search">
         <input type="text" placeholder="请输入商家名、品类或者商圈..." />
       </section>
-      <section class="people"></section>
+      <section class="people" @click.prevent="submitMine"></section>
     </header>
     <main>
       <!-- 热门 -->
@@ -21,7 +21,7 @@
         </li>
         <li>
           <a href>
-            <section class="icon iconfont"></section>
+            <section class="icon iconfont icon-maoyan1"></section>
             <section class="text">猫眼</section>
           </a>
         </li>
@@ -33,7 +33,7 @@
         </li>
         <li>
           <a href>
-            <section class="icon iconfont icon-wenhuayule"></section>
+            <section class="icon iconfont icon-xiuxianyule"></section>
             <section class="text">休闲娱乐</section>
           </a>
         </li>
@@ -57,19 +57,19 @@
         </li>
         <li>
           <a href>
-            <section class="icon iconfont icon-meinvguanjia"></section>
+            <section class="icon iconfont icon-liren"></section>
             <section class="text">丽人</section>
           </a>
         </li>
         <li>
           <a href>
-            <section class="icon iconfont icon-xiaochi"></section>
+            <section class="icon iconfont icon-xiaochikuaican"></section>
             <section class="text">小吃快餐</section>
           </a>
         </li>
         <li>
           <a href>
-            <section class="icon iconfont icon-zuyuzuliao"></section>
+            <section class="icon iconfont icon-shenghuofuwu"></section>
             <section class="text">生活服务</section>
           </a>
         </li>

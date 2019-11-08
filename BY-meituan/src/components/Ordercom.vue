@@ -10,19 +10,19 @@
       <div class="footer-nav">
         <ul>
           <li>
-            <a>首页</a>
+            <a href="" @click.prevent="subHome">首页</a>
           </li>
           <li>
-            <a>订单</a>
+            <a href="" @click.prevent="submitAllOrder">订单</a>
           </li>
           <li>
-            <a>客户端</a>
+            <a @click.prevent="subHome">客户端</a>
           </li>
           <li>
-            <a>电脑版</a>
+            <a @click.prevent="subHome">电脑版</a>
           </li>
           <li class="last-child">
-            <a>帮助</a>
+            <a href @click.prevent="submitHelp">帮助</a>
           </li>
         </ul>
       </div>
@@ -46,14 +46,23 @@
 export default {
     data(){
         return{};
+    },
+     methods: {
+      submitHelp(){
+      this.$router.push({path:"/Help"})
+    },subHome(){
+      this.$router.push({path:"/Home"})
+    },submitAllOrder(){
+      this.$router.push({path:"/allOrder"})
     }
+  }
 }
 </script>
 
 <style lang="less" scoped>
 .footer-container {
   padding: 0 0.2rem 0.7rem 0.2rem;
-  background-color: #f0f0f0;
+  background-color:#fff;
 
   .footer-bar {
     margin-bottom: 0.4rem;

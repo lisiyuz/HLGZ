@@ -148,7 +148,7 @@ h1 {
 .nav-btn img.icn_menu {
   width: 0.48rem;
   height: 0.48rem;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   border: 0;
 }
 .autoBox {
