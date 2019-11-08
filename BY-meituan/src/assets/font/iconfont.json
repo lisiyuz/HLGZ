@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "173463",
+      "name": "文化娱乐",
+      "font_class": "wenhuayule",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "773944",
+      "name": "KTV",
+      "font_class": "ktv",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "1130589",
+      "name": "酒店",
+      "font_class": "jiudian",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2076316",
+      "name": " 周边游",
+      "font_class": "zhoubianyou",
+      "unicode": "e8a2",
+      "unicode_decimal": 59554
+    },
+    {
+      "icon_id": "5131557",
+      "name": "猫咪",
+      "font_class": "maomi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "5218778",
+      "name": "小吃",
+      "font_class": "xiaochi",
+      "unicode": "e533",
+      "unicode_decimal": 58675
+    },
+    {
+      "icon_id": "6638075",
+      "name": "美女管家",
+      "font_class": "meinvguanjia",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "7843634",
+      "name": "美食",
+      "font_class": "fenzu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "9270247",
+      "name": "足浴足疗",
+      "font_class": "zuyuzuliao",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "9297205",
+      "name": "外卖",
+      "font_class": "waimai",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}

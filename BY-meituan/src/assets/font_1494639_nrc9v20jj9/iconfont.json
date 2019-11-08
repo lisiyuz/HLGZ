@@ -1,0 +1,115 @@
+{
+  "id": "1494639",
+  "name": "iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "782737",
+      "name": "代付款",
+      "font_class": "daifukuanbig",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1522592",
+      "name": "我的收藏",
+      "font_class": "wodeshoucang",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "1733471",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "3188814",
+      "name": "货车",
+      "font_class": "truckfuzhi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3976195",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "4284770",
+      "name": "我的抵用券",
+      "font_class": "wodediyongquan",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "7629202",
+      "name": "订单",
+      "font_class": "icon-",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "7960901",
+      "name": "我 的",
+      "font_class": "my-select",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8081386",
+      "name": "记事本",
+      "font_class": "iconfront-",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "8134934",
+      "name": "抽奖",
+      "font_class": "choujiang",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "8315650",
+      "name": "退款/售后",
+      "font_class": "-",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "8389736",
+      "name": "待评价 2.0",
+      "font_class": "daipingjia",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "9552987",
+      "name": "修改密码",
+      "font_class": "xiugaimima",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+
+    {
+      "icon_id": "10131214",
+      "name": "使用",
+      "font_class": "shiyong",
+      "unicode": "e778",
+      "unicode_decimal": 59256
+    },
+    {
+      "icon_id": "10378426",
+      "name": "返 回",
+      "font_class": "lunbo2",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

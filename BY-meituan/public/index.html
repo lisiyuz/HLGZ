@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>meituan</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1493024_shj8hdciaj9.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1493024_pfp2g96ok8p.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1493024_wjqbr39m95.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1493024_ultmtydlh6.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1493024_aija8kp68ed.css">
   </head>
   <body>
-   
+    <script>
+          function refreshRem() {
+            var desW = 640,
+              winW = document.documentElement.clientWidth || document.body.clientWidth;
+            ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+          }
+          refreshRem();
+          window.addEventListener('resize', refreshRem);
+      
+        </script>
     <div id="app"></div>
    
   </body>
