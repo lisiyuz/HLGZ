@@ -14,7 +14,14 @@
 
       <van-tab title="手机验证登录">
         <van-cell-group>
-          <van-field v-model="value" placeholder="请输入手机号" size="large" />
+  <van-field
+    v-model="phone"
+    label="手机号"
+    placeholder="请输入手机号"
+    error-message="手机号格式错误"
+  />
+</van-cell-group>
+        <van-cell-group>
           <van-cell-group>
             <van-field v-model="sms" center clearable label="短信验证码" placeholder="请输入短信验证码">
               <van-button slot="button" size="small" type="primary">发送验证码</van-button>

@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "bigTitle": " 北京全聚德",
+        "smallTitle": "[天安门广场]精品烤鸭3-4人餐1份",
+        "price": 418,
+        "rackRate": 523,
+        "sell": 6086,
+        "pic": "http://p1.meituan.net/200.0/deal/ebee186962d71b90044b46422df4faa540449.jpg@114_0_381_381a%7C267h_267w_2e_90Q"
+    },
+    {
+        "id": 2,
+        "bigTitle": "有范儿串串香火锅",
+        "smallTitle": "[7店通用]双人串串香自助",
+        "price": 138.8,
+        "rackRate": 236,
+        "sell": 41548,
+        "pic": "http://p1.meituan.net/200.0/deal/cd2f7bcd5e8a231325a685ac0ffb1b3476166.jpg@134_0_532_532a%7C267h_267w_2e_90Q"
+    },
+    {
+        "id": 3,
+        "bigTitle": "东来顺饭庄",
+        "smallTitle": "[3店通用]东来顺四人餐，有赠品",
+        "price": 258,
+        "rackRate": 658,
+        "sell": 28104,
+        "pic": "http://p0.meituan.net/200.0/deal/3879253eeb38e3d5eac3ec9c1ce5724641489.jpeg@73_0_293_293a%7C267h_267w_2e_100Q"
+    },
+    {
+        "id": 4,
+        "bigTitle": "小龙坎老火锅",
+        "smallTitle": "[北京等]50元代金卷一张，可叠加两张",
+        "price": 25,
+        "rackRate": 50,
+        "sell": 213891,
+        "pic": "http://p0.meituan.net/200.0/deal/92254369580f8eb86a14aed53fae2bff1886389.jpg@468_0_1872_1872a%7C267h_267w_2e_90Q"
+    },
+    {
+        "id": 5,
+        "bigTitle": "诸鲜火锅自助餐厅",
+        "smallTitle": "[北京西站/六里桥]单人火锅自助",
+        "price": 65,
+        "rackRate": 68,
+        "sell": 57969,
+        "pic": "http://p1.meituan.net/200.0/deal/657ddb55ae9a908316157a4da28c0b31124626.jpg@167_0_666_666a%7C267h_267w_2e_90Q"
+    },
+    {
+        "id": 6,
+        "bigTitle": "铁木真",
+        "smallTitle": "[双桥]单人自助",
+        "price": 79.9,
+        "rackRate": 83,
+        "sell": 170602,
+        "pic": "http://p1.meituan.net/200.0/deal/45243c03ba50024edfd99372cc809c9a35494.jpg"
+    },
+    {
+        "id": 7,
+        "bigTitle": "彭记铁锅肥肠",
+        "smallTitle": "[北新桥/簋街]铁锅肥肠2-3人套餐",
+        "price": 148,
+        "rackRate": 183,
+        "sell": 409928,
+        "pic": "http://p1.meituan.net/200.0/deal/ff461855f8f5951723e1c480d76586ce48655.jpg@120_0_400_400a%7C267h_267w_2e_100q"
+    },
+    {
+        "id": 8,
+        "bigTitle": "丁丁洋回转自助火锅",
+        "smallTitle": "[5店通用]单人自助火锅",
+        "price": 42.9,
+        "rackRate": 45,
+        "sell": 409945,
+        "pic": "http://p0.meituan.net/200.0/deal/909348cecddb3babf6d2643bb1e2d44a49527.jpg@0_34_500_500a%7C267h_267w_2e_90Q"
+    },
+    {
+        "id": 9,
+        "bigTitle": "好伦哥",
+        "smallTitle": "永定路店单人自助餐",
+        "price": 67,
+        "rackRate": 69,
+        "sell": 187969,
+        "pic": "https://p1.meituan.net/200.0/deal/dcd57da5ef098fcd42d4da61bfec924782325.jpg@143_0_613_613a%7C267h_267w_2e_90Q"
+    }
+]
