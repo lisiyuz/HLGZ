@@ -2,9 +2,9 @@
   <section class="wrapper">
     <header class="navbar">
       <div class="left">
-        <a href class="back" @click.prevent=" MineBack">
+        <a href class="back" @click.prevent="backMy">
           <img
-            src="../../assets/images/53361fd0bb6b333e779377789a8d669e531.png"
+            src="../../../assets/images/53361fd0bb6b333e779377789a8d669e531.png"
             alt
             class="icn_back"
           />
@@ -16,7 +16,7 @@
       <div class="right">
         <a href="javascript:;" class="menu">
           <img
-            src="../../assets/images/7289ad16274ae18417b84c916bb6a711169.png"
+            src="../../../assets/images/7289ad16274ae18417b84c916bb6a711169.png"
             alt
             class="icn_menu"
           />
@@ -35,9 +35,9 @@
               >
                 <div class="more more-weak">
                   <i class="text-icon iconfont icon-my-select"></i>
-                  <span class="yyy">kDk444601767</span>
+                  <span class="yyy" v-text= "Account"></span>
                   <span class="more-after yyy">修改</span>
-                  <i class="after iconfont icon-lunbo2"></i>
+                
                 </div>
               </a>
             </dd>
@@ -50,7 +50,7 @@
                 <div class="more more-weak">
                   <span class="text-icon iconfont icon-xiugaimima"></span>
                   修改登录密码
-                  <i class="after iconfont icon-lunbo2"></i>
+                 
                 </div>
               </a>
             </dd>
@@ -64,7 +64,6 @@
                   <span class="text-icon iconfont icon-shouji"></span>
                   已绑定手机号 187****0892
                   <span class="more-after">更换</span>
-                  <i class="after iconfont icon-lunbo2"></i>
                 </div>
               </a>
             </dd>
@@ -77,32 +76,31 @@
                 <div class="more more-weak">
                   <span class="text-icon iconfont icon-truckfuzhi"></span>
                   收货地址管理
-                  <i class="after iconfont icon-lunbo2"></i>
                 </div>
               </a>
             </dd>
           </dl>
         </dd>
       </dl>
-      <div>
-        <button class="btn btn-warning btn-normal">退出登录</button>
+      <div >
+        <button class="btn iLoginComp-login-btn-wrapper  btn-warning btn-normal">退出登录</button>
       </div>
     </div>
   </section>
 </template>
-
 <script>
-
-
+import "../../../assets/font_1494639_nrc9v20jj9/iconfont.css";
 export default {
   data() {
-    return {};
+    return {
+     Account:"ad44ggttgg"
+    };
   },
-  methods:{
-     MineBack() {
+  methods: {
+    backMy() {
       this.$router.push("/Mine");
-    },
-  }
+    }
+  },
 };
 </script>
 <style lang="css" scoped>
@@ -138,6 +136,7 @@ header {
 }
 .back {
   position: absolute;
+  left: 0.01rem;
   top: 0.1rem;
   height: 1rem;
   width: 0.45rem;
@@ -151,7 +150,7 @@ header {
 .madel {
       display: block;
       -webkit-box-flex: 1;
-      font-size: 0.3rem;
+      font-size: 0.28rem;
       font-weight: 400;
       text-align: center;
       line-height: 1rem;
@@ -277,7 +276,16 @@ label.react {
   cursor: pointer;
   -webkit-user-select: none;
 }
-.bot{
-
+.btn {
+  margin-top: 0.15rem;
+  margin-left: 0.09rem;
+  width: 6.2rem;
+  font-size: .28rem;
+  color: #FFF;
+  border-radius: 0.2rem;
+  height: 0.75rem;
+  line-height: 0.9rem;
+  background-color: #f97251 !important;
 }
+
 </style>

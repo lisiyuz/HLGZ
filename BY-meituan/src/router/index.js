@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 /* 导入的组件 */
 import Home from '../views/Home/Home.vue'
 import Mine from '../views/Mine/Mine.vue'
+import Mines from '../views/Mine/mins.vue'
 import MtDownLoad from '../views/MeituanDownLoad/MtDownLoad.vue'
 import Help from '../views/Help/Help.vue'
 import PcVersion from '../views/PcVersion/PcVersion.vue'
@@ -11,9 +12,10 @@ import Order from '../views/Order/Order.vue'
 import YesOrder from '../views/Order/YesOrder.vue'
 import PayOrder from '../views/PayOrder/PayOrder.vue'
 import unEnroll from '../views/Enroll/unEnroll.vue'
-import allOrder from '../views/allOrder/allOrder.vue'
-import MineLogin from '../views/Mine/MineLogin.vue'
-import MineDd from '../views/Mine/MineDd.vue'
+import MyLogin from '../views/Mine/MineLogin.vue'
+import MineDd from '../views/Mine/MineZh/MineDd.vue'
+import allOrder from '../views/Mine/MineOrder/allOrder'
+import MineSearch from '../views/Mine/MineSs/MineSearch'
 import Details from '../views/Details/Details.vue'
 Vue.use(VueRouter)
 
@@ -55,15 +57,29 @@ const router = new VueRouter({
   }, {
     path: '/Mine',
     name: 'mine',
-    component: Mine
+    component: Mine,
+    children: [
+      {
+        path: '',
+        name: 'mine',
+        component: Mines
+      },{
+      path: 'allOrder',
+      name: 'MineOrder',
+      component: allOrder
+    },{
+      path: 'MineDd',
+      name: 'MineZh',
+      component: MineDd
+    },{
+      path: 'MineSearch',
+      name: 'MineSs',
+      component: MineSearch
+    }]
   }, {
     path: '/MyLogin',
     name: 'MyLogin',
-    component: MineLogin
-  }, {
-    path: '/MineDd',
-    name: 'MineDd',
-    component: MineDd
+    component: MyLogin
   }, {
     path: '/MtDownLoad',
     name: 'MtDownLoad',
