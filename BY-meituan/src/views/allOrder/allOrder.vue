@@ -1,4 +1,4 @@
-<template>
+~<template>
   <div>
     <Enroll title="支付订单"></Enroll>
   <van-tabs v-model="active" color="#FFBD00">
