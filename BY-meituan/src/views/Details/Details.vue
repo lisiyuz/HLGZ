@@ -92,36 +92,35 @@
             </div>
             <!-- 评价详情 -->
             <div class="dd-padding cloud-tag">
-              <a href="###" class="btn-tag">
-                <el-button plain class="anniu">菜品差126</el-button>
+              <a class="btn-tag">
+                <van-button plain hairline type="primary" size="small" color="gray">菜品差126</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu huangse">味道赞90</el-button>
+                 <van-button plain hairline type="primary" size="small" color="#eb8706">味道赞90</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu huangse">回头客29</el-button>
+                 <van-button plain hairline type="primary" size="small" color="#eb8706">回头客29</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu">海鲜差29</el-button>
+                 <van-button plain hairline type="primary" size="small" color="gray">海鲜差29</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu">分量少27</el-button>
+                 <van-button plain hairline type="primary" size="small" color="gray">分量少27</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu">饮品差21</el-button>
+                 <van-button plain hairline type="primary" size="small" color="gray">饮品差21</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu">点心差18</el-button>
+                 <van-button plain hairline type="primary" size="small" color="gray">点心差18</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu">上菜慢13</el-button>
+                 <van-button plain hairline type="primary" size="small" color="gray">上菜慢13</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu huangse">交通便利9</el-button>
+                 <van-button plain hairline type="primary" size="small" color="#eb8706">交通便利9</van-button> 
               </a>
               <a href="###" class="btn-tag">
-                <el-button plain class="anniu">朋友聚餐3</el-button>
-              </a>
+                 <van-button plain hairline type="primary" size="small" color="gray">朋友聚餐3</van-button>               </a>
             </div>
           </div>
           <!-- 最新通知 -->
@@ -355,6 +354,10 @@
 
 
 <script>
+import Vue from 'vue';
+import { Button } from 'vant';
+
+Vue.use(Button);
 import Ordercom from '../../components/Ordercom.vue'
 export default {
   data() {
@@ -597,7 +600,7 @@ export default {
           .btn-tag {
             // width: 25%;
             padding: .2rem;
-            height: 0.3rem;
+            height: 0.4rem;
             display: inline-block;
             .anniu {
               width: 1.8rem;

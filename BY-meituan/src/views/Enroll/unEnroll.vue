@@ -55,7 +55,7 @@ Vue.use(Field);
 import Enroll from "../../components/Enroll.vue";
 export default {
   data() {
-    return { value: "", sms: "" };
+    return { value: "", sms: "",phone:'' };
   },
   components: {
     Enroll
