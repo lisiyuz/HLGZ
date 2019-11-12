@@ -124,7 +124,7 @@ export default {
         this.$router.push({ path: '/PayOrder', query: { plan: this.computedPrice }})
     },
     back() {
-      this.$router.push("/Details");
+      this.$router.go(-1) ;
     }
   },
   computed: {

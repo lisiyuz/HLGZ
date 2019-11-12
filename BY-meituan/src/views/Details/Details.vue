@@ -368,7 +368,7 @@ export default {
         this.$router.push({ path: '/YesOrder'})
     },
     Detailsback() {
-      this.$router.push("/Home");
+     this.$router.go(-1) ;
     }
   },
    components: {

@@ -101,7 +101,7 @@ export default {
   },
   methods: {
     backMy() {
-      this.$router.push("/Mine");
+      this.$router.go(-1) ;
     },
     ddd() {
       function beforeClose(action, done) {

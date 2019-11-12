@@ -10,7 +10,9 @@
       <div class="in-order">
         <div class="in-countdown" style="display: block;">
           支付剩余时间
-          <span class="in-clock"><van-count-down :time="time" /></span>
+          <span class="in-clock">
+            <van-count-down :time="time" />
+          </span>
         </div>
 
         <div class="in-order-fee">
@@ -45,7 +47,7 @@
               </div>
 
               <div class="checkbox">
-                <input type="radio" name="pay-method"/>
+                <input type="radio" name="pay-method" />
                 <i class="icon-success"></i>
               </div>
             </div>
@@ -117,31 +119,50 @@
       </div>
     </div>
     <!-- 底部 -->
-  <div class="footer">
-    <div class="btn-wrapper">
-      <button class="btn-block">确认支付</button>
+    <div class="footer">
+      <div class="btn-wrapper">
+        <button class="btn-block" @click="Dialog">确认支付</button>
+      </div>
     </div>
-  </div>    
-
   </div>
 </template>
 
 
 <script>
-import Vue from 'vue';
-import { CountDown } from 'vant';
+import { Dialog } from "vant";
+
+// 全局注册
+Vue.use(Dialog);
+
+import Vue from "vue";
+import { CountDown } from "vant";
 Vue.use(CountDown);
 export default {
   data() {
     return {
-            time: 24 * 60 * 60 * 1000
+      time: 24 * 60 * 60 * 1000
     };
   },
+
   methods: {
     back() {
-      this.$router.push("/yesorder");
+      this.$router.go(-1);
+    },
+    Dialog() {
+      Dialog.confirm({
+        title: "支付订单",
+        message: "你已支付成功"
+      })
+        .then(() => {
+           
+           this.$router.push("/Home");
+        })
+        .catch(() => {
+          // on cancel
+        });
     }
   },
+
   computed: {
     queryPrice() {
       return this.$route.query.plan;
@@ -150,7 +171,7 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.all{
+.all {
   background: #fafafa;
 }
 .nav {
@@ -459,30 +480,27 @@ export default {
     }
   }
 }
-.footer{
+.footer {
   background: #fff;
   height: 3.2rem;
 
-
   .btn-wrapper {
-  margin: 0 0.2rem;
-  width: 6.2rem;
-  height: 0.85rem;
-  position: fixed;
-  bottom: 0;
-  padding: 0.1rem 0rem;
-  .btn-block {
-    background-color: #ffd000;
-    color: rgb(19, 18, 18);
-    border: 0;
-    width: 6rem;
-    font-weight: bold;
-    height: 0.82rem;
-    font-size: 0.3rem;
-    border-radius: 0.06rem;
+    margin: 0 0.2rem;
+    width: 6.2rem;
+    height: 0.85rem;
+    position: fixed;
+    bottom: 0;
+    padding: 0.1rem 0rem;
+    .btn-block {
+      background-color: #ffd000;
+      color: rgb(19, 18, 18);
+      border: 0;
+      width: 6rem;
+      font-weight: bold;
+      height: 0.82rem;
+      font-size: 0.3rem;
+      border-radius: 0.06rem;
+    }
   }
 }
-}
-
-
 </style>
