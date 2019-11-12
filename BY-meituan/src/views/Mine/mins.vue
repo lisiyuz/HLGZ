@@ -48,7 +48,7 @@
 
       <dl class="list">
         <dd class="dds">
-          <a class="react" href="//i.meituan.com/brunch/order" @click.prevent="gOrder">
+          <a class="react" href="" @click.prevent="gOrder">
             <div class="more more-weak">
               <i class="text-icon order-all order-icon dingdan iconfont icon-choujiangdan"></i>全部订单
               <span data-key="all" class="more-after">
@@ -60,28 +60,28 @@
         <dd>
           <ul class="orderindex">
             <li>
-              <a href="//i.meituan.com/brunch/order?status=1" class="react" @click.prevent="gOrder">
+              <a href="" class="react" @click.prevent="gOrder">
                 <i class="text-icon sss iconfont icon-daifukuan"></i>
                 <span class="yyy">待付款</span>
                 <span data-key="unpaid" class="amount-icon"></span>
               </a>
             </li>
             <li>
-              <a href="//i.meituan.com/brunch/order?status=2" class="react" @click.prevent="gOrder">
+              <a href="" class="react" @click.prevent="gOrder">
                 <i class="text-icon sss iconfont icon-daishiyong"></i>
                 <span class="yyy">待使用</span>
                 <span data-key="unused" class="amount-icon"></span>
               </a>
             </li>
             <li>
-              <a href="//i.meituan.com/brunch/order?status=3" class="react" @click.prevent="gOrder">
+              <a href="" class="react" @click.prevent="gOrder">
                 <i class="text-icon sss iconfont icon-pingjia"></i>
                 <span class="yyy">待评价</span>
                 <span data-key="needfeedback" class="amount-icon" style="display: block;">5</span>
               </a>
             </li>
             <li>
-              <a href="//i.meituan.com/brunch/order?status=4" class="react">
+              <a href="" class="react">
                 <i class="text-icon sss iconfont icon-tuikuan"></i>
                 <span class="yyy">退款/售后</span>
               </a>
@@ -94,7 +94,7 @@
           <a
             class="react"
             gaevent="imt/account/collection"
-            href="//i.meituan.com/account/collection"
+            href=""
           >
             <div class="more more-weak gai">
               <i class="yanse2 text-icon order-fav order-icon iconfont icon-wodeshoucang"></i>
@@ -103,7 +103,7 @@
           </a>
         </dd>
         <dd>
-          <a class="react" gaevent="imt/account/magiccard" href="//i.meituan.com/account/magiccard">
+          <a class="react" gaevent="imt/account/magiccard" href="">
             <div class="more more-weak gai">
               <i class="yanse1 text-icon order-card order-icon iconfont icon-daijinjuan"></i>我的抵用券
             </div>
@@ -113,7 +113,7 @@
           <a
             class="react"
             gaevent="imt/account/ordersLotterys"
-            href="//i.meituan.com/orders/lotterys"
+            href=""
           >
             <div class="more more-weak gai">
               <i
@@ -124,7 +124,7 @@
           </a>
         </dd>
         <dd>
-          <a class="react" gaevent="imt/account/points" href="//i.meituan.com/firework/aboutpoint">
+          <a class="react" gaevent="imt/account/points" href="">
             <div class="more more-weak gai">
               <i class="order-icon">
                 <img class="gao" src="../../assets/images/下载.png" alt />

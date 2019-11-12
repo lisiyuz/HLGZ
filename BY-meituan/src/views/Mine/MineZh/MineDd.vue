@@ -31,13 +31,12 @@
               <a
                 class="react"
                 gaevent="imt/account/myinfo/editUsername"
-                href="//i.meituan.com/account/username"
+                href=""
               >
                 <div class="more more-weak">
                   <i class="text-icon iconfont icon-my-select"></i>
-                  <span class="yyy" v-text= "Account"></span>
+                  <span class="yyy" v-text="Account"></span>
                   <span class="more-after yyy">修改</span>
-                
                 </div>
               </a>
             </dd>
@@ -45,12 +44,11 @@
               <a
                 class="react"
                 gaevent="imt/account/myinfo/setPassword"
-                href="//i.meituan.com/account/setpassword"
+                href=""
               >
                 <div class="more more-weak">
                   <span class="text-icon iconfont icon-xiugaimima"></span>
                   修改登录密码
-                 
                 </div>
               </a>
             </dd>
@@ -58,7 +56,7 @@
               <a
                 class="react"
                 gaevent="imt/account/myinfo/editMobile"
-                href="//i.meituan.com/risk2/rebind"
+                href=""
               >
                 <div class="more more-weak">
                   <span class="text-icon iconfont icon-shouji"></span>
@@ -71,7 +69,7 @@
               <a
                 class="react"
                 gaevent="imt/account/myinfo/address"
-                href="//i.meituan.com/account/address"
+                href=""
               >
                 <div class="more more-weak">
                   <span class="text-icon iconfont icon-truckfuzhi"></span>
@@ -82,29 +80,59 @@
           </dl>
         </dd>
       </dl>
-      <div >
-        <button class="btn iLoginComp-login-btn-wrapper  btn-warning btn-normal">退出登录</button>
+      <div>
+        <button class="btn iLoginComp-login-btn-wrapper btn-warning btn-normal" @click="ddd">退出登录</button>
       </div>
     </div>
   </section>
 </template>
 <script>
 import "../../../assets/font_1494639_nrc9v20jj9/iconfont.css";
+import Vue from "vue";
+import { Dialog } from "vant";
+Vue.use(Dialog);
+
 export default {
   data() {
     return {
-     Account:"ad44ggttgg"
+      
+      Account: "ad44ggttgg"
     };
   },
   methods: {
     backMy() {
       this.$router.push("/Mine");
+    },
+    ddd() {
+      function beforeClose(action, done) {
+        if (action === "confirm") {
+          setTimeout(done, 1000);
+        } else {
+          done();
+        }
+      }
+      Dialog.confirm({
+        title: "提示",
+        message: "确定退出美团账户吗？",
+        confirmButtonColor:"#FE8C00",
+        cancelButtonColor:"#FE8C00",
+        closeOnClickOverlay:"true",
+        beforeClose
+      })
+        .then(() => {
+           this.$router.push('/Home')
+        })
+        .catch(() => {
+        });
     }
   },
+  components: {
+    [Dialog.Component.name]: Dialog.Component
+  }
 };
 </script>
 <style lang="css" scoped>
- html,
+html,
 body,
 .wrapper {
   height: 100%;
@@ -148,19 +176,19 @@ header {
   height: 0.36rem;
 }
 .madel {
-      display: block;
-      -webkit-box-flex: 1;
-      font-size: 0.28rem;
-      font-weight: 400;
-      text-align: center;
-      line-height: 1rem;
-      margin: 0;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
-      width: 3.1rem;
-      height: 1.01rem;
-    }
+  display: block;
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1rem;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 3.1rem;
+  height: 1.01rem;
+}
 .a {
   width: 0.5rem;
   height: 0.5rem;
@@ -168,8 +196,8 @@ header {
   padding: 0 0 0 0.2rem;
 }
 .icn_menu {
-      width: 0.48rem;
-      height: 0.48rem;
+  width: 0.48rem;
+  height: 0.48rem;
 }
 .right {
   height: 100%;
@@ -178,12 +206,11 @@ header {
   text-align: right;
   padding-right: 0.2rem;
 }
-.right .menu{
-   position: relative;
-  top:0.3rem;
-} 
+.right .menu {
+  position: relative;
+  top: 0.3rem;
+}
 
- 
 dl.list dt,
 dl.list dd {
   margin: 0;
@@ -259,7 +286,6 @@ label.react {
   font-size: 0.28rem;
 }
 .btn-normal {
-
   display: inline-block;
   margin: 0 auto;
   text-align: center;
@@ -280,12 +306,11 @@ label.react {
   margin-top: 0.15rem;
   margin-left: 0.09rem;
   width: 6.2rem;
-  font-size: .28rem;
-  color: #FFF;
+  font-size: 0.28rem;
+  color: #fff;
   border-radius: 0.2rem;
   height: 0.75rem;
   line-height: 0.9rem;
   background-color: #f97251 !important;
 }
-
 </style>

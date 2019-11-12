@@ -3,9 +3,9 @@
   <div class="order-item" data-id="5461998743">
     <a
       class="del-btn sp-order-center sp-order-center__delete show"
-      data-href="https://ordercenter.meituan.com/ordercenter/user/orderDelete/1"
+      data-href=""
     ></a>
-    <div class="order" data-href="https://meishi.meituan.com/i/order/detail/5461998743">
+    <div class="order" data-href="">
       <div class="left">
         <div class="img-ctn">
           <img
@@ -30,9 +30,9 @@
   <div class="order-item" data-id="5461998743">
     <a
       class="del-btn sp-order-center sp-order-center__delete show"
-      data-href="https://ordercenter.meituan.com/ordercenter/user/orderDelete/1"
+      data-href=""
     ></a>
-    <div class="order" data-href="https://meishi.meituan.com/i/order/detail/5461998743">
+    <div class="order" data-href="">
       <div class="left">
         <div class="img-ctn">
           <img
@@ -51,7 +51,7 @@
           <dt class="item">数量: 3</dt>
           <dt class="item">总价: ￥74.4</dt>
           <dt class="btn-container ">
-                <a class="mt-btn" data-style="1" href="https://i.meituan.com/client" @click.prevent='goDownload'>待评价</a>
+                <a class="mt-btn" data-style="1" href="" @click.prevent='goDownload'>待评价</a>
              </dt>
         </dl>
       </div>

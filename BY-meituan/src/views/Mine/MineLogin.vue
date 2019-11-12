@@ -91,11 +91,10 @@ export default {
   width: 6.2rem;
   height: 0.9rem;
   color: #222222;
-//   opacity: 0.3;
   border-radius: 0.2rem;
   height: 0.9rem;
   line-height: 0.9rem;
   background-color: #ffbd22 !important;
-//   background-image: linear-gradient(-133deg, #ffbd00 0%, #ffd000 100%);
+
 }
 </style>
